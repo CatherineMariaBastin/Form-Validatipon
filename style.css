@@ -21,7 +21,7 @@ body{
   font-size: 18px;
 }
 .container:hover{
-  background-color:#FF7733;
+  background-color:black;
   color:yellow;
   transform: scale(1.05);
 }
@@ -29,6 +29,6 @@ body{
 .inputcontrol:hover{
   transform: scale(1.05);
   background-color: #FEFBBD;
-  color:#FF7733;
+  color:black;
   font-family: Times New Roman;
 }
