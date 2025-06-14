@@ -1,0 +1,29 @@
+body{
+  background: linear-gradient(to right, darkgreen, yellow);
+  font-family: Comic Sans MS, Arial, Monospace;
+  
+}
+
+.container{
+  background-color:white;
+  margin:auto;
+  width:300px;
+  text-align:center;
+  box-shadow: 0 0 10px black;
+  border:5px solid darkgreen;
+  border-radius:15px;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+.container:hover{
+  background-color:darkgreen;
+  color:yellow;
+  transform: scale(1.05);
+}
+
+.inputcontrol:hover{
+  transform: scale(1.05);
+  background-color: yellow;
+  color:darkgreen;
+  font-family: Times New Roman;
+}
