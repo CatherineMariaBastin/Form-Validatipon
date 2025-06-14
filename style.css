@@ -1,7 +1,12 @@
 body{
-  background: linear-gradient(to right, darkgreen, yellow);
+  background-image:url('https://c0.wallpaperflare.com/preview/997/717/184/artificial-intelligence-codes-developing-screen.jpg');
+  background-size:cover;
+  background-position: center;
+  background-blend-mode:overlay;
+  background-color: rgb(86,88,86);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
   font-family: Comic Sans MS, Arial, Monospace;
-  
 }
 
 .container{
@@ -10,20 +15,20 @@ body{
   width:300px;
   text-align:center;
   box-shadow: 0 0 10px black;
-  border:5px solid darkgreen;
+  border:5px solid #FF7733;
   border-radius:15px;
   transition: all 0.3s ease;
   font-size: 18px;
 }
 .container:hover{
-  background-color:darkgreen;
+  background-color:#FF7733;
   color:yellow;
   transform: scale(1.05);
 }
 
 .inputcontrol:hover{
   transform: scale(1.05);
-  background-color: yellow;
-  color:darkgreen;
+  background-color: #FEFBBD;
+  color:#FF7733;
   font-family: Times New Roman;
 }
